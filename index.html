@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>cricketer's Information</title>
+    <style>
+      /* Style the navigation bar */
+      .nav {
+        margin-left: 40px;
+        width: 20rem;
+        padding: 5px;
+        padding-bottom: 12px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        font-size: 30px;
+      }
+      .nav-item {
+        margin: 12px;
+        padding: 12px;
+      }
+      .nav a {
+        color: rgb(12, 59, 91);
+        text-decoration: none;
+      }
+      .dropdown-menu {
+        font-size: 30px;
+      }
+      /* Style the active navigation link */
+      .nav a.active {
+        font-weight: bold;
+      }
+      /* Style the dropdown menu */
+      .dropdown-menu {
+        background-color: #cec9c9;
+        border: none;
+      }
+
+      .dropdown-item {
+        color: rgb(13, 3, 3);
+      }
+
+      /* Style the disabled link */
+      .nav-link.disabled {
+        color: #121212;
+        pointer-events: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav" style="width: 15rem">
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html"
+            >Home</a
+          >
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            data-bs-toggle="dropdown"
+            href="#"
+            role="button"
+            aria-expanded="false"
+            >profiles</a
+          >
+          <ul class="dropdown-menu">
+            <li>
+              <a class="dropdown-item" href="Sachin.html">Sachin Tendulkar</a>
+            </li>
+            <li><a class="dropdown-item" href="Virat.html">Virat Kohli</a></li>
+            <li><a class="dropdown-item" href="Rohit.html">Rohit Sharma</a></li>
+            <li>
+              <a class="dropdown-item" href="Surya.html">SuryaKumar Yadav</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link disabled"
+            href="#"
+            tabindex="-1"
+            aria-disabled="true"
+            >Logout</a
+          >
+        </li>
+      </ul>
+    </div>
+    <h1>Welcome to Cricketer's world</h1>
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="about.html">
+          <img
+            src="https://media.istockphoto.com/id/1646447254/photo/hitting-the-cricket-stump.webp?b=1&s=170667a&w=0&k=20&c=w1zTBh_qR8LvEpyNxNn_aS2YfAlY_zP3DGcbJ-y0zHc="
+            class="d-block w-100"
+            alt=""
+          />
+        </a>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Indian Cricket</h5>
+            <p>Cricket is never simply a game; it is an array of emotions</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <a href="about.html">
+          <img
+            src="https://media.istockphoto.com/id/641185956/photo/batsman-on-the-stadium-in-action.webp?b=1&s=170667a&w=0&k=20&c=_qz1h3k_vj2kTujcpRVaa4-__AhRAZQPp9DRxUf4IAg="
+            class="d-block w-100"
+            alt=""
+          />
+        </a>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Cricket is our life</h5>
+            <p>Its our time to shine and champians are made not born</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <a href="about.html">
+          <img
+            src="https://media.istockphoto.com/id/846032496/photo/close-up-of-wooden-stump-by-batsman-standing-on-field.webp?b=1&s=170667a&w=0&k=20&c=BepP-UmV4a9YerTMHoIp8rjmm2fXuXGdoogXQMeNRRk="
+            class="d-block w-100"
+            alt="..."
+          />
+          </a>
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Team work</h3>
+            <p>Cricket is the best example of team work.</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="row">
+      <div class="card" style="width: 28rem">
+        <img
+          src="https://resources.pulse.icc-cricket.com/photo-resources/2023/01/12/64903018-7e6e-416b-97a7-21c8d0b7e968/Arjun236_1254.jpg?width=845&height=606"
+          class="card-img-top"
+          alt="Sachin Tendulkar"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Sachin Tendulkar</h5>
+          <p class="card-text">
+            Sachin Ramesh Tendulkar, is an Indian former international cricketer
+            who captained the Indian national team. He is widely regarded as one
+            of the greatest batsmen in the history of cricket.
+          </p>
+          <a href="Sachin.html" class="btn btn-primary">Sachin's Profile</a>
+        </div>
+      </div>
+      <div class="card" style="width: 28rem">
+        <img
+          src="data:image/jpeg;base64,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"
+          class="card-img-top"
+          alt="Virat Kohli"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Virat Kohli</h5>
+          <p class="card-text">
+            Virat Kohli is an Indian international cricketer and the former
+            captain of the Indian national cricket team. He currently represents
+            Royal Challengers Bangalore in the IPL and Delhi in domestic
+            cricket.
+          </p>
+          <a href="Virat.html" class="btn btn-primary">Virat's Profile</a>
+        </div>
+      </div>
+      <div class="card" style="width: 28rem">
+        <img
+          src="data:image/jpeg;base64,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"
+          class="card-img-top"
+          alt="Rohit Sharma"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Rohit Sharma</h5>
+          <p class="card-text">
+            Rohit Gurunath Sharma is an Indian international cricketer and the
+            current captain of India national cricket team in all formats.
+            Considered one of the best batsmen of his generation and one of
+            greatest opening batters of all time, Sharma is known for his
+            timing, elegance, six-hitting abilities and leadership skills.
+          </p>
+          <a href="Rohit.html" class="btn btn-primary">Rohit's Profile</a>
+        </div>
+      </div>
+      <div class="card" style="width: 28rem">
+        <img
+          src="data:image/jpeg;base64,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"
+          class="card-img-top"
+          alt="SKY"
+        />
+        <div class="card-body">
+          <h5 class="card-title">SuryaKumar Yadav</h5>
+          <p class="card-text">
+            Surya Kumar Yadav is an Indian international cricketer who
+            represents the Indian cricket team in ODI & T20I Formats. He is the
+            current vice-captain of the Indian National Cricket Team in T20I. He
+            has represented India in all three formats of the game.
+          </p>
+          <a href="Surya.html" class="btn btn-primary">Surya's Profile</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

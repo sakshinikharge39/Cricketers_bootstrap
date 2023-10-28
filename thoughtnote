@@ -1,0 +1,16 @@
+I made a website using html, css, and bootrap which consists of information about four cricketers
+I create differnt pages for differnt cricketer.
+
+index.html:
+I used inline css as well as bootstrap framework for styling the navbar.
+it consist of home, profile dropdown and logout.
+I also add three page carousel consist of different images related to cricket. If we click on any image in it it will redirect to the "about.html"
+then I create 4 different cards. One for sachin, one for Virat, one for Rohit, one for Suryakumar.
+I add hover effect to them. 
+If we tab to the button, it will redirect to the more information about the respective cricketer.
+
+sachin.html:
+this page consist of information about Sachin Tendulkar which has personal information, career highlights and achievements.
+It has a navbar.  for the  more styling I use inline css 
+
+similary I used this for Virat.html, Rohit.html and surya.html 

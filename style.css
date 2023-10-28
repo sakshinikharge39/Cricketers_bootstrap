@@ -1,0 +1,175 @@
+/* Apply a background color to the body */
+body {
+    background-color: rgb(192, 187, 227);
+}
+
+/* Center the h1 heading and give it a background color */
+h1 {
+    text-align: center;
+    background-color: #62a4e6;
+    color: white;
+    padding: 28px;
+}
+/* Style the cards */
+.row {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.card {
+    margin: 25px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    height: 45rem;
+}
+
+.card:hover {
+    transform: scale(1.15);
+    color: rgb(80, 78, 208);
+}
+
+.card-img-top {
+    padding: 5%;
+}
+
+.card-title {
+    font-weight: bolder;
+    padding-bottom: 3%;
+    font-size: 28px;
+}
+
+.card-text {
+    font-size: 20px;
+}
+
+/* Style the primary button */
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+
+
+/* carousel */
+/* Style the carousel container */
+#carouselExampleCaptions {
+    margin: 0 auto;
+}
+
+/* Style the carousel indicators */
+.carousel-indicators {
+    margin-top: 10px;
+}
+
+.carousel-indicators button {
+    width: 45px;
+    height: 25px;
+    background-color: #ccc;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.carousel-indicators button.active {
+    background-color: #007bff;
+}
+
+/* Style the carousel items */
+.carousel-item {
+    text-align: center;
+    padding: 20px;
+
+}
+
+.carousel-item img {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.carousel-caption h5 {
+    font-size: 24px;
+    color: #fff;
+}
+
+.carousel-caption p {
+    font-size: 18px;
+    color: #fff;
+}
+
+/* Style the carousel controls */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    padding-top: 880px;
+    padding-bottom: 600px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    color: #0d0101;
+    opacity: 1;
+}
+
+.carousel-inner {
+    width: 100%;
+}
+
+.carousel-caption p {
+    font-size: 35px;
+}
+
+/* cricketer's page */
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+  background-color: #62a4e6;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2)
+}
+
+img {
+    width: 200%;
+    height: auto;
+}
+
+.container  {
+    background-color: rgb(192, 187, 227);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.row{
+  padding-top: 20px;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 20px;
+    
+}
+
+.col-md-6 p{
+  padding-top: 12px;
+  font-size: 25px;
+}
+
+.col-md-12 {
+  text-align: left;
+}
+.col-md-12 li{
+  font-size: 30px;
+}
+
